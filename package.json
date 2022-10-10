@@ -45,6 +45,7 @@
     "@hint/hint-typescript-config": "^2.5.9",
     "@testing-library/dom": "^8.16.0",
     "@testing-library/jest-dom": "^5.16.4",
+    "@types/jquery": "^3.5.14",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.31.0",
     "autoprefixer": "^10.4.7",
