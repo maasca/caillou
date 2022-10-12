@@ -1,6 +1,7 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  color: rgb(73, 143, 73);
 }
 html button {
   margin: 1em;
@@ -24,6 +25,15 @@ html header #enTeteContainer img {
     width: 15%;
   }
 }
+html body #tableContainer th {
+  background-color: rgb(73, 143, 73);
+  color: #fff;
+}
+html body #tableContainer table {
+  margin: auto;
+  font-size: larger;
+  margin-right: 5em;
+}
 @media (min-width: 600px) {
   html body #tableContainer {
     display: flex;
@@ -33,26 +43,32 @@ html header #enTeteContainer img {
 html body #tableContainer #imgProduit {
   margin: auto;
 }
-html body #tableContainer .table {
-  margin: auto;
-}
 @media (min-width: 600px) {
   html body #cardsContainer {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 html body .card {
-  border: 2px solid black;
+  border: 2px solid rgb(73, 143, 73);
   border-radius: 10px;
-  padding: 5em;
+  padding: 1em;
   margin: auto;
-  width: 15%;
-  height: 10em;
 }
-html body .card #nutriscoreLogo,
 html body .card #ecoscoreLogo,
-html body .card #novaLogo {
-  max-height: 100%;
+html body .card #novaLogo,
+html body .card #nutriscoreLogo {
+  height: 5rem;
+}
+@media (min-width: 600px) {
+  html body .card {
+    width: 20%;
+  }
+  html body .card #ecoscoreLogo,
+html body .card #novaLogo,
+html body .card #nutriscoreLogo {
+    max-width: 80%;
+  }
 }
 html footer {
   background-color: rgb(202, 219, 202);
@@ -65,4 +81,5 @@ html footer ul li {
 }
 html footer p {
   font-size: small;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
