@@ -1,4 +1,4 @@
-export class ProduitImage {
+class ProduitImage {
   imageProduit: string;
   nutri: string;
   eco: string;

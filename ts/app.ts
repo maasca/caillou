@@ -1,6 +1,6 @@
-import { ProduitData } from "./produitData";
-import { getProduitInfo } from "./produitInfo";
-import { getProduitImage } from "./produitImage";
+import { ProduitData } from "./produitData.js";
+import { getProduitInfo } from "./produitInfo.js";
+import { getProduitImage } from "./produitImage.js";
 
 const rechercher = <HTMLElement>document.getElementById("rechercher");
 const recherche = <HTMLInputElement>document.getElementById("recherche");
@@ -21,6 +21,7 @@ async function afficher() {
         getProduitInfo(data);
       } else {
         imageProduit.innerHTML = "Le code barre rentré n'est pas référencé";
+        // alert("Le code barre rentré n'est pas référencé");
       }
     });
 }

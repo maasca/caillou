@@ -1,4 +1,4 @@
-export class ProduitInfo {
+class ProduitInfo {
   graisse: number;
   sel: number;
   graissesSat: number;
