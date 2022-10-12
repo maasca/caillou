@@ -40,11 +40,19 @@ html {
       #imgProduit {
         margin: auto;
       }
+      @media (min-width: 1200px) {
+        margin-left: 15%;
+        margin-right: 15%;
+      }
     }
     #cardsContainer {
       @media (min-width: 600px) {
         display: flex;
         flex-wrap: wrap;
+      }
+      @media (min-width: 1200px) {
+        margin-left: 15%;
+        margin-right: 15%;
       }
     }
     .card {
@@ -67,20 +75,20 @@ html {
         }
       }
     }
-  }
-  footer {
-    background-color: rgb(202, 219, 202);
+    footer {
+      background-color: rgb(202, 219, 202);
 
-    ul {
-      list-style-type: none;
+      ul {
+        list-style-type: none;
 
-      li {
-        display: inline;
+        li {
+          display: inline;
+        }
       }
-    }
-    p {
-      font-size: small;
-      color: black;
+      p {
+        font-size: small;
+        color: black;
+      }
     }
   }
 }
