@@ -43,10 +43,22 @@ html body #tableContainer table {
 html body #tableContainer #imgProduit {
   margin: auto;
 }
+@media (min-width: 1200px) {
+  html body #tableContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 @media (min-width: 600px) {
   html body #cardsContainer {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+@media (min-width: 1200px) {
+  html body #cardsContainer {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 html body .card {
@@ -70,16 +82,16 @@ html body .card #nutriscoreLogo {
     max-width: 80%;
   }
 }
-html footer {
+html body footer {
   background-color: rgb(202, 219, 202);
 }
-html footer ul {
+html body footer ul {
   list-style-type: none;
 }
-html footer ul li {
+html body footer ul li {
   display: inline;
 }
-html footer p {
+html body footer p {
   font-size: small;
   color: black;
 }/*# sourceMappingURL=style.css.map */

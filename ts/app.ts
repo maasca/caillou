@@ -20,6 +20,7 @@ async function afficher() {
         getProduitImage(data);
         getProduitInfo(data);
       } else {
+        imageProduit.setAttribute("src", "");
         imageProduit.innerHTML = "Le code barre rentré n'est pas référencé";
         // alert("Le code barre rentré n'est pas référencé");
       }
